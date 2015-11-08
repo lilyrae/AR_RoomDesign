@@ -1,0 +1,18 @@
+# MARKER_ID;SCALE;ROTATION;MESH
+100_living_room;0.04;1.0;coffee_table.mesh
+200_living_room;0.5;1.0;couch2.mesh
+300_living_room;0.8;320.0;sofa_tango.mesh
+400_living_room;0.8;1.0;pillow.mesh
+500_living_room;0.2;1.0;watch.mesh
+100_bedroom;0.5;270.0;chair.mesh
+200_bedroom;0.8;180.0;nice_bed.mesh
+300_bedroom;0.65;270.0;english_table.mesh
+400_bedroom;0.3;1.0;shelf_table.mesh
+500_bedroom;0.025;180.0;tv_led.mesh
+##
+
+0.001 stool.mesh
+0.05  chair.mesh
+0.3 longtable.mesh
+0.5 nice_bed.mesh
+0.3 sofa.mesh

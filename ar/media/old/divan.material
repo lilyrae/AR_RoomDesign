@@ -1,0 +1,121 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// 1yellow.tkan genrated by blender2ogre 0.6.0
+
+material 1yellow.tkan 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 1yellow.tkan
+        {
+            ambient 0.6901960968971252 0.5803921818733215 0.10588235408067703 1.0
+            diffuse 0.5521568857454788 0.4643137524174712 0.08470588452675765 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// 1blue.tkan genrated by blender2ogre 0.6.0
+
+material 1blue.tkan 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 1blue.tkan
+        {
+            ambient 0.2863277196884155 0.27575093507766724 0.9233568906784058 1.0
+            diffuse 0.22906217916402483 0.2206007513493411 0.7386855235499965 1.0
+            specular 0.0 0.0 0.0 1.0 0.25
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// aluminium genrated by blender2ogre 0.6.0
+
+material aluminium 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass aluminium
+        {
+            ambient 0.49803921580314636 0.49803921580314636 0.49803921580314636 1.0
+            diffuse 0.3984313785796072 0.3984313785796072 0.3984313785796072 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

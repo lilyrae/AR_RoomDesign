@@ -1,0 +1,86 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// Wood_basic.001 genrated by blender2ogre 0.6.0
+
+material Wood_basic.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Wood_basic.001
+        {
+            ambient 0.8001960968971252 0.3803921818733215 0.05588235408067703 1.0
+            diffuse 0.5521568857454788 0.4643137524174712 0.08470588452675765 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// gold genrated by blender2ogre 0.6.0
+
+material gold 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass gold
+        {
+            ambient 0.8001960968971252 0.3803921818733215 0.35588235408067703 1.0
+            diffuse 0.5521568857454788 0.4643137524174712 0.08470588452675765 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

@@ -1,0 +1,164 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// metal genrated by blender2ogre 0.6.0
+
+material metal 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass metal
+        {
+            ambient 0.3941061496734619 0.3941061496734619 0.3941061496734619 1.0
+            diffuse 0.31528492443688094 0.31528492443688094 0.31528492443688094 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// black genrated by blender2ogre 0.6.0
+
+material black 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass black
+        {
+            ambient 0.06469438970088959 0.05495193973183632 0.05175638198852539 1.0
+            diffuse 0.05175551253192889 0.043961552440547225 0.041405106207804465 1.0
+            specular 0.07377049326896667 0.07377049326896667 0.07377049326896667 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// stitch genrated by blender2ogre 0.6.0
+
+material stitch 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass stitch
+        {
+            ambient 0.03528263047337532 0.03244917467236519 0.03151962533593178 1.0
+            diffuse 0.028226104799301988 0.025959340124716457 0.025215700644488637 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture stitch.png
+                tex_address_mode wrap
+                scale 1.0 0.06172839942237944
+                tex_coord_set 1
+                colour_op_ex blend_texture_alpha src_texture src_current
+            }
+        }
+    }
+}
+// wood genrated by blender2ogre 0.6.0
+
+material wood 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass wood
+        {
+            ambient 0.04704733565449715 0.029098063707351685 0.02321065030992031 1.0
+            diffuse 0.03763786908444566 0.023278451312757298 0.018568520524628762 1.0
+            specular 0.07377049326896667 0.07377049326896667 0.07377049326896667 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
