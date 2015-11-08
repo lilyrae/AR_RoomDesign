@@ -1,4 +1,8 @@
-# Readme #
+# ShowARoom #
+
+Project for the AEC Hackathon 2.7 (Helsinki, Finland).
+
+Augmented Reality for Interior Design.
 
 A project integrating Aruco markers, OGRE 3D engine and Oculus Rift with OpenCV for Augment Reality.
 
@@ -10,7 +14,7 @@ A project integrating Aruco markers, OGRE 3D engine and Oculus Rift with OpenCV 
 
 # Quick Getting Compiled #
 
-** Include paths (-I):** 
+** Include paths (-I):**
 
 - {path_to_opencv_installation}/include
 - {path_to_aruco_installation}/utils
@@ -47,7 +51,5 @@ A project integrating Aruco markers, OGRE 3D engine and Oculus Rift with OpenCV 
 {path_to_opencv_installation}/lib
 
 # Notes #
-
-The Debug folder has been pushed for demonstration purposes of the makefile.
 
 The project has been setup using Eclipse, the guidelines above match exactly the steps required for compiling the project there.
